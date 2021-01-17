@@ -1,41 +1,53 @@
 <?php
 namespace app\api\controller\v1;
 
-class User{
-    
-    public function index(){
-        //echo 'fffff';
-    }
+class User {
 
-    public function login(){
+  /**
+   * Undocumented function
+   *
+   * @return void
+   */
+  public function index() {
+    echo 'dfsf';
+  }
 
-    }
+  /**
+   * Undocumented function
+   *
+   * @param string $userName
+   * @param string $password
+   * @return void
+   */
+  public function login(string $userName, string $password) {
 
-    public function resetpwd(){
+  }
 
-    }
+  public function resetPwd() {
 
-    public function changepwd(){
+  }
 
-    }
+  public function changePwd() {
 
-    public function register(){
+  }
 
-    }
+  public function register() {
 
-    public function insert(){
+  }
 
-    }
+  public function insert() {
 
-    public function list(){
+  }
 
-    }
+  function list() {
 
-    public function update(){
+  }
 
-    }
+  public function update() {
 
-    public function delete(){
-        
-    }
+  }
+
+  public function delete() {
+
+  }
 }
